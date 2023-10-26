@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install"
   },
   "dependencies": {
+    "@next/swc-win32-x64-msvc": "^13.5.6",
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
     "next": "13.5.6",
